@@ -1,0 +1,79 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400);
+*{
+    font-family: 'Aclonica', sans-serif;
+    background-color: white;
+}
+h1,h2,h3{
+    font-size: 4em;
+    margin: 1em 2em 1em 2em
+}
+p{
+    font-size: 2em;
+    margin: 0.5em 1em 0.5em 1em;
+}
+header{
+    background-color: palevioletred;
+    color: white;
+    margin-bottom: 30px;
+    padding: auto;
+    grid-row: 1 / 3;
+}
+nav{
+    background-color: rgb(206, 64, 112);
+    color: black;
+    width: 100%;
+    padding: auto;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+nav a{
+    display: flex;
+    margin: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: orangered;
+}
+body{
+    background-color: pink;
+    color: rgb(106, 203, 228);
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: minmax(240px 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(auto 1fr auto);
+}
+strong{
+    font-size: 2.5em;
+    background-color: aqua;
+}
+em{
+    font-size: 1.8em;
+    color: aquamarine;
+}
+footer{
+    background-color: magenta;
+    color: blue;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 40px;
+    grid-row: 3 / 4;
+}
+main{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
